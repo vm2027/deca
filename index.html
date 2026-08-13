@@ -69,6 +69,7 @@
   }
   table{
     width:100%;
+    table-layout:fixed;
     border-collapse:collapse;
     margin:0 0 8px;
     font-size:13px;
@@ -80,11 +81,15 @@
     font-weight:bold;
     padding:8px 10px;
     border:1px solid var(--navy);
+    overflow-wrap:break-word;
+    word-break:break-word;
   }
   tbody td{
     padding:8px 10px;
     border:1px solid #bbbbbb;
     vertical-align:top;
+    overflow-wrap:break-word;
+    word-break:break-word;
   }
   tbody tr:nth-child(even) td{
     background:var(--light);
