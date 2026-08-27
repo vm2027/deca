@@ -4,9 +4,10 @@ A static, single-page site for a Collegiate DECA chapter's ICDC timeline:
 chapter milestones and official DECA deadlines, presented as two HTML
 tables. `index.html` is the live GitHub Pages site
 (`vm2027.github.io/deca/`), served directly from `main` — there is no
-build step, no data pipeline, and no CI. `index1.html` and
-`index2_files/` are earlier drafts/exports kept for reference; they are
-not the live page.
+build step, no data pipeline, and no CI. `index1.html` (an old backup)
+and `index2_files/` (orphaned Word-export assets) used to sit alongside
+it but were removed as unreferenced dead weight — see git history if
+either is ever needed again.
 
 This repo is deliberately kept static-only: no Python scripts, no
 GitHub Actions workflows, no generated output. Keep it that way — if a
