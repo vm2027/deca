@@ -20,10 +20,11 @@ Same practice as `vm2027/news`: after opening a PR, call
 `request_copilot_review` and wait for its review comment before
 merging. Do not merge solely because there's no merge conflict.
 
-Branch protection on `main` (require a pull request before merging) is
-recommended but not yet confirmed enabled — check Settings → Branches
-if this matters to you; it isn't something a Claude Code session can
-verify or set on its own from this repo alone.
+Branch protection on `main` is enabled (require a pull request before
+merging, restrict force pushes, restrict deletions) — confirmed via
+Settings → Branches. No required status checks or required reviewer
+count, since this repo has no CI and Copilot review is a manual,
+advisory step rather than a blocking check.
 
 ## What to actually check when editing the timeline
 
